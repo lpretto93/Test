@@ -1,5 +1,13 @@
 let players = [];
 let currentPlayer = 0;
+const categories = {
+    'geography': { color: '#6d9eeb', name: 'Geografia' },
+    'entertainment': { color: '#e06666', name: 'Intrattenimento' },
+    'history': { color: '#ffd966', name: 'Storia' },
+    'arts': { color: '#c27ba0', name: 'Arte e Letteratura' },
+    'science': { color: '#93c47d', name: 'Scienza e Natura' },
+    'sports': { color: '#f6b26b', name: 'Sport e Tempo Libero' },
+};
 
 function startGame() {
     const numPlayers = document.getElementById('numPlayers').value;
@@ -15,7 +23,16 @@ function startGame() {
 function fetchQuestion() {
     // Qui dovresti interfacciarti con il servizio di Copilot per ottenere una domanda
     // Per ora, useremo una domanda finta
-    document.getElementById('question').innerText = 'Qual è la capitale d’Italia?';
+    const categoryKeys = Object.keys(categories);
+    const randomCategory = categoryKeys[Math.floor(Math.random() * categoryKeys.length)];
+    const question = {
+        category: randomCategory,
+        text: 'Qual è la capitale d’Italia?',
+    };
+    
+    document.getElementById('category').innerText = categories[question.category].name;
+    document.getElementById('question').innerText = question.text;
+    document.body.style.backgroundColor = categories[question.category].color;
 }
 
 function submitAnswer() {
