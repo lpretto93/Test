@@ -3,52 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Tuo Negozio di Abbigliamento</title>
+    <title>Il Mio Armadio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
         }
         header {
-            background-color: #333;
+            background-color: #343a40;
             color: white;
             padding: 1rem;
             text-align: center;
         }
         .container {
-            width: 80%;
-            margin: 0 auto;
+            width: 90%;
+            margin: 20px auto;
             padding: 20px;
         }
         .section {
             margin-bottom: 30px;
         }
         .section h2 {
-            text-align: center;
+            text-align: left;
             margin-bottom: 15px;
+            color: #495057;
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 5px;
         }
         .item {
-            display: inline-block;
-            width: 22%;
-            margin: 1%;
-            background-color: white;
-            border: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
             padding: 10px;
-            text-align: center;
+            background: #fff;
+            margin: 5px 0;
+            border: 1px solid #dee2e6;
             border-radius: 5px;
         }
-        .item img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
+        .item p {
+            margin: 0;
+            color: #495057;
         }
-        .item h3 {
-            margin: 10px 0;
+        .item span {
+            font-weight: bold;
         }
         footer {
-            background-color: #333;
+            background-color: #343a40;
             color: white;
             text-align: center;
             padding: 10px;
@@ -58,7 +59,7 @@
 <body>
 
 <header>
-    <h1>Benvenuto nel Tuo Negozio di Abbigliamento</h1>
+    <h1>Il Mio Armadio</h1>
 </header>
 
 <div class="container">
@@ -66,105 +67,88 @@
     <div class="section">
         <h2>Scarpe</h2>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Air+Force+1+Nike" alt="Air Force 1">
-            <h3>Air Force 1 Nike</h3>
-            <p>Colore: Bianco</p>
+            <p><span>Marca:</span> Nike X Ambush | <span>Tipo di capo:</span> Air Force 1 | <span>Colore:</span> White</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Dunk+Low+San+Valentino" alt="Dunk Low San Valentino">
-            <h3>Dunk Low San Valentino</h3>
-            <p>Colore: PRM San Valentino 2023</p>
+            <p><span>Marca:</span> Nike | <span>Tipo di capo:</span> Dunk Low Retro | <span>Colore:</span> PRM San Valentino (2023)</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Jordan+1+Mid" alt="Jordan 1 Mid">
-            <h3>Jordan 1 Mid</h3>
-            <p>Colore: Giallo, Bianco, Nero</p>
+            <p><span>Marca:</span> Nike X Off White | <span>Tipo di capo:</span> Dunk Low Lotto 2 | <span>Colore:</span> Sail, Neutral Grey-Blue Fury</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Timberland" alt="Timberland">
-            <h3>Timberland Classic Boot</h3>
-            <p>Colore: Camoscio Marrone</p>
-        </div>
-    </div>
-
-    <!-- Crewneck e Felpe -->
-    <div class="section">
-        <h2>Crewneck e Felpe</h2>
-        <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Crewneck+Essential+Nero" alt="Crewneck Essential Nero">
-            <h3>Crewneck Essential Nero</h3>
-            <p>Marca: Essential</p>
+            <p><span>Marca:</span> Nike X Off White | <span>Tipo di capo:</span> Jordan 4 Retro | <span>Colore:</span> Sail, Muslin-White-Black</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Hoodie+Balenciaga" alt="Hoodie Balenciaga">
-            <h3>Hoodie Balenciaga</h3>
-            <p>Colore: Nero, Leggera</p>
+            <p><span>Marca:</span> Nike | <span>Tipo di capo:</span> Jordan 1 Mid | <span>Colore:</span> Yellow, White, Black</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Hoodie+Puma" alt="Hoodie Puma">
-            <h3>Hoodie Puma</h3>
-            <p>Colore: Nera</p>
+            <p><span>Marca:</span> Timberland | <span>Tipo di capo:</span> Classic Boot | <span>Colore:</span> Camoscio</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Dsquared+Crewneck" alt="Dsquared Crewneck">
-            <h3>Dsquared Crewneck</h3>
-            <p>Colore: Bianca e Rossa</p>
+            <p><span>Marca:</span> Antica Cuoieria | <span>Tipo di capo:</span> Scarpe Eleganti | <span>Colore:</span> Blu</p>
+        </div>
+        <div class="item">
+            <p><span>Marca:</span> Alexander McQueen | <span>Tipo di capo:</span> Oversize | <span>Colore:</span> White-Black</p>
         </div>
     </div>
 
-    <!-- Pantaloni e Jeans -->
+    <!-- Felpe -->
     <div class="section">
-        <h2>Pantaloni e Jeans</h2>
+        <h2>Felpe</h2>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Jeans+Celio+Blue" alt="Jeans Celio Blue">
-            <h3>Jeans Celio Blue</h3>
-            <p>Colore: Blue</p>
+            <p><span>Marca:</span> Essential | <span>Tipo di capo:</span> Hoodie | <span>Colore:</span> Nero</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Jeans+Neri+MAN" alt="Jeans Neri MAN">
-            <h3>Jeans Neri MAN</h3>
-            <p>Colore: Neri</p>
+            <p><span>Marca:</span> Essential | <span>Tipo di capo:</span> Hoodie | <span>Colore:</span> Grigio</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Jeans+Distressed+MAN" alt="Jeans Distressed MAN">
-            <h3>Jeans Distressed MAN</h3>
-            <p>Colore: Crema</p>
+            <p><span>Marca:</span> Essential | <span>Tipo di capo:</span> Hoodie | <span>Colore:</span> Grigio Chiaro</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Chino+Celio+Neri" alt="Chino Celio Neri">
-            <h3>Chino Celio Neri</h3>
-            <p>Colore: Neri</p>
+            <p><span>Marca:</span> Puma | <span>Tipo di capo:</span> Hoodie Oversize | <span>Colore:</span> Bianco (Regalo di Pozza e Fabiola)</p>
+        </div>
+        <div class="item">
+            <p><span>Marca:</span> Balenciaga | <span>Tipo di capo:</span> Hoodie | <span>Colore:</span> Nero, Leggera</p>
         </div>
     </div>
 
-    <!-- Giacche e Cappotti -->
+    <!-- Pantaloni -->
     <div class="section">
-        <h2>Giacche e Cappotti</h2>
+        <h2>Pantaloni</h2>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Piumino+Alcott" alt="Piumino Alcott">
-            <h3>Piumino Alcott</h3>
-            <p>Colore: Rosso</p>
+            <p><span>Marca:</span> Celio | <span>Tipo di capo:</span> Chino | <span>Colore:</span> Nero</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Giacca+Louis+Vuitton" alt="Giacca Louis Vuitton">
-            <h3>Giacca Louis Vuitton</h3>
-            <p>Colore: Camoscio</p>
+            <p><span>Marca:</span> Celio | <span>Tipo di capo:</span> Chino | <span>Colore:</span> Panna</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Giacca+Zara+Azzurra" alt="Giacca Zara Azzurra">
-            <h3>Giacca Zara Azzurra</h3>
-            <p>Colore: Azzurro (Leggera)</p>
+            <p><span>Marca:</span> MAN | <span>Tipo di capo:</span> Jeans Baggy | <span>Colore:</span> Nero</p>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/200x200?text=Piumino+Moncler" alt="Piumino Moncler">
-            <h3>Piumino Moncler</h3>
-            <p>Colore: Bianco</p>
+            <p><span>Marca:</span> MAN | <span>Tipo di capo:</span> Jeans Baggy | <span>Colore:</span> Azzurro</p>
+        </div>
+    </div>
+
+    <!-- Giacche -->
+    <div class="section">
+        <h2>Giacche</h2>
+        <div class="item">
+            <p><span>Marca:</span> Alcott | <span>Tipo di capo:</span> Piumino | <span>Colore:</span> Rosso</p>
+        </div>
+        <div class="item">
+            <p><span>Marca:</span> Palm Angels | <span>Tipo di capo:</span> Piumino | <span>Colore:</span> Nero</p>
+        </div>
+        <div class="item">
+            <p><span>Marca:</span> Moncler | <span>Tipo di capo:</span> Piumino | <span>Colore:</span> Bianco</p>
+        </div>
+        <div class="item">
+            <p><span>Marca:</span> Louis Vuitton | <span>Tipo di capo:</span> Giacca | <span>Colore:</span> Camoscio</p>
         </div>
     </div>
 </div>
 
 <footer>
-    <p>&copy; 2025 Il Tuo Negozio di Abbigliamento. Tutti i diritti riservati.</p>
+    <p>&copy; 2025 Il Mio Armadio. Tutti i diritti riservati.</p>
 </footer>
 
 </body>
