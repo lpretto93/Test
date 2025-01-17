@@ -22,6 +22,14 @@
             margin: auto;
             overflow: hidden;
         }
+        .category {
+            margin-bottom: 30px;
+        }
+        .category h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -52,456 +60,346 @@
         <h1>Il Mio Armadio</h1>
     </header>
     <div class="container">
-        <section class="product-grid">
-            <!-- Scarpe -->
-            <div class="product-item">
-                <h3>Nike X Ambush Air Force 1 Low</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike X Ambush<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Bianche<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Nike Dunk Low Retro PRM San Valentino (2023)</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> -<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Nike X Off-White Dunk Low Lotto 2</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike X Off-White<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Sail, Neutral Grey-Blue Fury<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Timberland Classic Boot</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Timberland<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Camoscio marrone<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Antica Cuoieria Scarpe eleganti</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Antica Cuoieria<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Blu<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Nike X Off-White Jordan 4 Retro</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike X Off-White<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Saul, Muslin-White-Black<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Nike Jordan 1 Mid</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Giallo, bianco, nero<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Nike Mars Yard 2.0</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Beige e rosso<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Nike Sacai LDV Waffle</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> Nere e bianche<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Alexander McQueen Oversize</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Alexander McQueen<br>
-                    <strong>Tipo:</strong> Scarpe<br>
-                    <strong>Colore:</strong> White-Black<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
+        <!-- Scarpe -->
+        <div class="category">
+            <h2>Scarpe</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Nike X Ambush - Air Force 1 Low</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Bianche
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike - Dunk Low Retro</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> PRM San Valentino 2023
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike X Off-White - Dunk Low Lotto 2</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Sail, Neutral Grey-Blue Fury
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Timberland - Classic Boot</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Camoscio marrone
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Antica Cuoieria - Scarpe eleganti</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Blu
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike X Off-White - Jordan 4 Retro</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Saul, Muslin-White-Black
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike - Jordan 1 Mid</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Giallo, bianco, nero
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike - Mars Yard 2.0</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Beige e rosso
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike - Sacai LDV Waffle</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nere e bianche
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Alexander McQueen - Oversize</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> White-Black
+                    </p>
+                </div>
+            </section>
+        </div>
 
-            <!-- Crewneck e Sweatshirt -->
-            <div class="product-item">
-                <h3>Essential Crewneck Nera</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Essential<br>
-                    <strong>Tipo:</strong> Crewneck<br>
-                    <strong>Colore:</strong> Nera<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Essential Crewneck Crema</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Essential<br>
-                    <strong>Tipo:</strong> Crewneck<br>
-                    <strong>Colore:</strong> Crema<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Dsquared Crewneck</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Dsquared<br>
-                    <strong>Tipo:</strong> Crewneck<br>
-                    <strong>Colore:</strong> Bianca e rossa<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Supreme Crewneck</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Supreme<br>
-                    <strong>Tipo:</strong> Crewneck<br>
-                    <strong>Colore:</strong> Grigio o nero<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Burberry Sweater</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Burberry<br>
-                    <strong>Tipo:</strong> Sweater<br>
-                    <strong>Colore:</strong> Bianco<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>BAngel Sweater pants</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> BAngel<br>
-                    <strong>Tipo:</strong> Sweater pants<br>
-                    <strong>Colore:</strong> Beige<br>
-                    <strong>Materiale:</strong> -
-                </p>
-                <p class="note">Regalo di Katteo ed Elisa</p>
-            </div>
+        <!-- Crewneck e Sweatshirt -->
+        <div class="category">
+            <h2>Crewneck e Sweatshirt</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Essential - Crewneck</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Essential - Crewneck</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Crema
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Dsquared - Crewneck</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Bianca e rossa
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Supreme - Crewneck</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Grigio o nero
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Burberry - Sweater</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Bianco
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>BAngel - Sweater pants</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Beige<br>
+                        <strong>Note:</strong> Tuta, Regalo di Katteo ed Elisa
+                    </p>
+                </div>
+            </section>
+        </div>
 
-            <!-- Hoodie -->
-            <div class="product-item">
-                <h3>Essential Hoodie Nera</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Essential<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Nera<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Essential Hoodie Grigia</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Essential<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Grigia<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Essential Hoodie Grigio chiaro</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Essential<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Grigio chiaro<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Puma Hoodie</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Puma<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Grigia o nera<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Balenciaga Hoodie</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Balenciaga<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Nera, leggera<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Alcott Hoodie</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Alcott<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Bordeaux<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Puma Oversize Hoodie</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Puma<br>
-                    <strong>Tipo:</strong> Hoodie<br>
-                    <strong>Colore:</strong> Bianca<br>
-                    <strong>Materiale:</strong> -
-                </p>
-                <p class="note">Regalo di Pozza e Fabiola</p>
-            </div>
+        <!-- Hoodie -->
+        <div class="category">
+            <h2>Hoodie</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Essential - Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Essential - Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Grigia
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Essential - Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Grigio chiaro
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Puma - Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Grigia o nera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Balenciaga - Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nera, leggera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Alcott - Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Bordeaux
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Puma - Oversize Hoodie</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Bianca<br>
+                        <strong>Note:</strong> Regalo di Pozza e Fabiola
+                    </p>
+                </div>
+            </section>
+        </div>
 
-            <!-- Pantaloni -->
-            <div class="product-item">
-                <h3>Celio Chino Neri</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Celio<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Neri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Celio Chino Panna</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Celio<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Panna<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Chino eleganti Crema</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> -<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Crema<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Chino eleganti Sabbia</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> -<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Sabbia<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Chino jeans Neri</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> -<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Neri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Chino verde/marrone</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> -<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Verde/marrone<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>BAngel Sweater pants</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> BAngel<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Beige<br>
-                    <strong>Materiale:</strong> -
-                </p>
-                <p class="note">Regalo di Katteo ed Elisa</p>
-            </div>
-            <div class="product-item">
-                <h3>Nike X Stussy Sweater pants</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Nike<br>
-                    <strong>Tipo:</strong> Pantaloni<br>
-                    <strong>Colore:</strong> Neri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
+        <!-- Pantaloni -->
+        <div class="category">
+            <h2>Pantaloni</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Celio - Chino</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Neri
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Celio - Chino</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Panna
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Chino eleganti</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Crema
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Chino eleganti</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Sabbia
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Chino jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Neri
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Chino verde/marrone</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Verde/marrone
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>BAngel - Sweater pants</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Beige<br>
+                        <strong>Note:</strong> Tuta, Regalo di Katteo ed Elisa
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Nike X Stussy - Sweater pants</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Neri<br>
+                        <strong>Note:</strong> Tuta
+                    </p>
+                </div>
+            </section>
+        </div>
 
-            <!-- Jeans -->
-            <div class="product-item">
-                <h3>Celio Jeans</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Celio<br>
-                    <strong>Tipo:</strong> Jeans<br>
-                    <strong>Colore:</strong> Blue<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>MAN Jeans cargo</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> MAN<br>
-                    <strong>Tipo:</strong> Jeans<br>
-                    <strong>Colore:</strong> Neri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Rugged Jeans</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Rugged<br>
-                    <strong>Tipo:</strong> Jeans<br>
-                    <strong>Colore:</strong> Blue<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>MAN Jeans leggermente baggy</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> MAN<br>
-                    <strong>Tipo:</strong> Jeans<br>
-                    <strong>Colore:</strong> Neri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>MAN Jeans baggy</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> MAN<br>
-                    <strong>Tipo:</strong> Jeans<br>
-                    <strong>Colore:</strong> Azzurri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
+        <!-- Jeans -->
+        <div class="category">
+            <h2>Jeans</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Celio - Jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Blue
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>MAN - Jeans cargo</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Neri
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Rugged - Jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Blue
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>MAN - Jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Neri leggermente baggy
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>MAN - Jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Azzurri baggy
+                    </p>
+                </div>
+            </section>
+        </div>
 
-            <!-- Pantaloni Distressed -->
-            <div class="product-item">
-                <h3>Jeans distressed Azzurri</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> -<br>
-                    <strong>Tipo:</strong> Pantaloni Distressed<br>
-                    <strong>Colore:</strong> Azzurri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>MAN Jeans distressed Crema</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> MAN<br>
-                    <strong>Tipo:</strong> Pantaloni Distressed<br>
-                    <strong>Colore:</strong> Crema<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Combipell Pantaloni chino distressed</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Combipell<br>
-                    <strong>Tipo:</strong> Pantaloni Distressed<br>
-                    <strong>Colore:</strong> Neri<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
+        <!-- Pantaloni Distressed -->
+        <div class="category">
+            <h2>Pantaloni Distressed</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Jeans distressed</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Azzurri
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>MAN - Jeans distressed</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Crema
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Combipell - Pantaloni chino distressed</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Neri
+                    </p>
+                </div>
+            </section>
+        </div>
 
-            <!-- Cappotti e Giacche -->
-            <div class="product-item">
-                <h3>Alcott Piumino Rosso</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Alcott<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Rosso<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Palm Angels Piumino Nero</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Palm Angels<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Nero<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Moncler Piumino Bianco</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Moncler<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Bianco<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Louis Vuitton Giacca</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Louis Vuitton<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Camoscio<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Combipell Giubbotto pelle Nero</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Combipell<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Nero<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Zara Giacca jeans Azzurra</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Zara<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Azzurra (leggera)<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Calvin Klein Giacca jeans Blu</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Calvin Klein<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Blu (leggera)<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Zara Giacca Crema</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Zara<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Crema (leggera)<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-            <div class="product-item">
-                <h3>Gallery Dept. Giacca</h3>
-                <p class="product-details">
-                    <strong>Marca:</strong> Gallery Dept.<br>
-                    <strong>Tipo:</strong> Cappotti e Giacche<br>
-                    <strong>Colore:</strong> Nera estiva<br>
-                    <strong>Materiale:</strong> -
-                </p>
-            </div>
-        </section>
+        <!-- Cappotti e Giacche -->
+        <div class="category">
+            <h2>Cappotti e Giacche</h2>
+            <section class="product-grid">
+                <div class="product-item">
+                    <h3>Alcott - Piumino</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Rosso
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Palm Angels - Piumino</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nero
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Moncler - Piumino</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Bianco
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Louis Vuitton - Giacca</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Camoscio
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Combipell - Giubbotto pelle</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nero
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Zara - Giacca jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Azzurra, leggera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Calvin Klein - Giacca jeans</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Blu, leggera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Zara - Giacca</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Crema, leggera
+                    </p>
+                </div>
+                <div class="product-item">
+                    <h3>Gallery Dept. - Giacca</h3>
+                    <p class="product-details">
+                        <strong>Colore:</strong> Nera estiva
+                    </p>
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 </html>
