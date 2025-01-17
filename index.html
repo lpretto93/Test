@@ -23,30 +23,36 @@
             padding: 20px;
         }
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         .section h2 {
-            text-align: left;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             color: #495057;
             border-bottom: 2px solid #343a40;
             padding-bottom: 5px;
         }
-        .item {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            background: #fff;
-            margin: 5px 0;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .card {
+            background: white;
             border: 1px solid #dee2e6;
             border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
         }
-        .item p {
-            margin: 0;
+        .card h3 {
+            font-size: 1rem;
+            margin: 0 0 10px;
+            color: #343a40;
+        }
+        .card p {
+            margin: 5px 0;
             color: #495057;
-        }
-        .item span {
-            font-weight: bold;
+            font-size: 0.9rem;
         }
         footer {
             background-color: #343a40;
@@ -66,51 +72,125 @@
     <!-- Scarpe -->
     <div class="section">
         <h2>Scarpe</h2>
-        <div class="item"><p><span>Marca:</span> Nike X Ambush | <span>Tipo:</span> Air Force 1 Low | <span>Colore:</span> Bianche</p></div>
-        <div class="item"><p><span>Marca:</span> Nike | <span>Tipo:</span> Dunk Low Retro | <span>Colore:</span> PRM San Valentino (2023)</p></div>
-        <div class="item"><p><span>Marca:</span> Nike X Off-White | <span>Tipo:</span> Dunk Low Lotto 2 | <span>Colore:</span> Sail, Neutral Grey-Blue Fury</p></div>
-        <div class="item"><p><span>Marca:</span> Nike X Off-White | <span>Tipo:</span> Jordan 4 Retro | <span>Colore:</span> Saul, Muslin-White-Black</p></div>
-        <div class="item"><p><span>Marca:</span> Nike | <span>Tipo:</span> Jordan 1 Mid | <span>Colore:</span> Giallo, Bianco, Nero</p></div>
-        <div class="item"><p><span>Marca:</span> Nike | <span>Tipo:</span> Mars Yard 2.0 | <span>Colore:</span> Beige e Rosso</p></div>
-        <div class="item"><p><span>Marca:</span> Nike | <span>Tipo:</span> Sacai LDV Waffle | <span>Colore:</span> Nere e Bianche</p></div>
-        <div class="item"><p><span>Marca:</span> Timberland | <span>Tipo:</span> Classic Boot | <span>Colore:</span> Camoscio Marrone</p></div>
-        <div class="item"><p><span>Marca:</span> Antica Cuoieria | <span>Tipo:</span> Scarpe Eleganti | <span>Colore:</span> Blu</p></div>
-        <div class="item"><p><span>Marca:</span> Alexander McQueen | <span>Tipo:</span> Oversize | <span>Colore:</span> White-Black</p></div>
-    </div>
-
-    <!-- Crewneck e Sweatshirt -->
-    <div class="section">
-        <h2>Crewneck e Sweatshirt</h2>
-        <div class="item"><p><span>Marca:</span> Essential | <span>Tipo:</span> Crewneck | <span>Colore:</span> Nera</p></div>
-        <div class="item"><p><span>Marca:</span> Essential | <span>Tipo:</span> Crewneck | <span>Colore:</span> Crema</p></div>
-        <div class="item"><p><span>Marca:</span> Dsquared | <span>Tipo:</span> Crewneck | <span>Colore:</span> Bianca e Rossa</p></div>
-        <div class="item"><p><span>Marca:</span> Supreme | <span>Tipo:</span> Crewneck | <span>Colore:</span> Grigio o Nero</p></div>
-        <div class="item"><p><span>Marca:</span> Burberry | <span>Tipo:</span> Sweater | <span>Colore:</span> Bianco</p></div>
-        <div class="item"><p><span>Marca:</span> BAngel | <span>Tipo:</span> Sweater Pants | <span>Colore:</span> Beige | <span>Note:</span> Regalo di Katteo ed Elisa</p></div>
-    </div>
-
-    <!-- Hoodie -->
-    <div class="section">
-        <h2>Hoodie</h2>
-        <div class="item"><p><span>Marca:</span> Essential | <span>Tipo:</span> Hoodie | <span>Colore:</span> Nera</p></div>
-        <div class="item"><p><span>Marca:</span> Essential | <span>Tipo:</span> Hoodie | <span>Colore:</span> Grigia</p></div>
-        <div class="item"><p><span>Marca:</span> Essential | <span>Tipo:</span> Hoodie | <span>Colore:</span> Grigio Chiaro</p></div>
-        <div class="item"><p><span>Marca:</span> Puma | <span>Tipo:</span> Hoodie | <span>Colore:</span> Grigia o Nera</p></div>
-        <div class="item"><p><span>Marca:</span> Balenciaga | <span>Tipo:</span> Hoodie | <span>Colore:</span> Nera, Leggera</p></div>
-        <div class="item"><p><span>Marca:</span> Alcott | <span>Tipo:</span> Hoodie | <span>Colore:</span> Bordeaux</p></div>
-        <div class="item"><p><span>Marca:</span> Puma | <span>Tipo:</span> Oversize Hoodie | <span>Colore:</span> Bianca | <span>Note:</span> Regalo di Pozza e Fabiola</p></div>
+        <div class="grid">
+            <div class="card">
+                <h3>Nike X Ambush</h3>
+                <p>Tipo: Air Force 1 Low</p>
+                <p>Colore: Bianche</p>
+            </div>
+            <div class="card">
+                <h3>Nike</h3>
+                <p>Tipo: Dunk Low Retro</p>
+                <p>Colore: PRM San Valentino (2023)</p>
+            </div>
+            <div class="card">
+                <h3>Nike X Off-White</h3>
+                <p>Tipo: Dunk Low Lotto 2</p>
+                <p>Colore: Sail, Neutral Grey-Blue Fury</p>
+            </div>
+            <div class="card">
+                <h3>Nike X Off-White</h3>
+                <p>Tipo: Jordan 4 Retro</p>
+                <p>Colore: Saul, Muslin-White-Black</p>
+            </div>
+            <div class="card">
+                <h3>Nike</h3>
+                <p>Tipo: Jordan 1 Mid</p>
+                <p>Colore: Giallo, Bianco, Nero</p>
+            </div>
+            <div class="card">
+                <h3>Nike</h3>
+                <p>Tipo: Mars Yard 2.0</p>
+                <p>Colore: Beige e Rosso</p>
+            </div>
+            <div class="card">
+                <h3>Nike</h3>
+                <p>Tipo: Sacai LDV Waffle</p>
+                <p>Colore: Nere e Bianche</p>
+            </div>
+            <div class="card">
+                <h3>Timberland</h3>
+                <p>Tipo: Classic Boot</p>
+                <p>Colore: Camoscio Marrone</p>
+            </div>
+            <div class="card">
+                <h3>Antica Cuoieria</h3>
+                <p>Tipo: Scarpe Eleganti</p>
+                <p>Colore: Blu</p>
+            </div>
+            <div class="card">
+                <h3>Alexander McQueen</h3>
+                <p>Tipo: Oversize</p>
+                <p>Colore: White-Black</p>
+            </div>
+        </div>
     </div>
 
     <!-- Pantaloni -->
     <div class="section">
         <h2>Pantaloni</h2>
-        <div class="item"><p>... (continua con la stessa struttura) ...</p></div>
+        <div class="grid">
+            <div class="card">
+                <h3>Celio</h3>
+                <p>Tipo: Chino</p>
+                <p>Colore: Neri</p>
+            </div>
+            <div class="card">
+                <h3>Celio</h3>
+                <p>Tipo: Chino</p>
+                <p>Colore: Panna</p>
+            </div>
+            <div class="card">
+                <h3>BAngel</h3>
+                <p>Tipo: Sweater Pants</p>
+                <p>Colore: Beige</p>
+                <p>Note: Regalo di Katteo ed Elisa</p>
+            </div>
+            <div class="card">
+                <h3>Nike</h3>
+                <p>Tipo: X Stussy Sweater Pants</p>
+                <p>Colore: Neri</p>
+            </div>
+            <div class="card">
+                <h3>MAN</h3>
+                <p>Tipo: Jeans</p>
+                <p>Colore: Azzurri Baggy</p>
+            </div>
+            <div class="card">
+                <h3>MAN</h3>
+                <p>Tipo: Jeans Cargo</p>
+                <p>Colore: Neri</p>
+            </div>
+            <!-- Continua a inserire altre categorie qui -->
+        </div>
     </div>
 
     <!-- Cappotti e Giacche -->
     <div class="section">
         <h2>Cappotti e Giacche</h2>
-        <div class="item"><p>... (continua con la stessa struttura) ...</p></div>
+        <div class="grid">
+            <div class="card">
+                <h3>Alcott</h3>
+                <p>Tipo: Piumino</p>
+                <p>Colore: Rosso</p>
+            </div>
+            <div class="card">
+                <h3>Palm Angels</h3>
+                <p>Tipo: Piumino</p>
+                <p>Colore: Nero</p>
+            </div>
+            <div class="card">
+                <h3>Louis Vuitton</h3>
+                <p>Tipo: Giacca</p>
+                <p>Colore: Camoscio</p>
+            </div>
+            <div class="card">
+                <h3>Zara</h3>
+                <p>Tipo: Giacca Jeans</p>
+                <p>Colore: Azzurra (leggera)</p>
+            </div>
+            <!-- Continua a inserire altre giacche -->
+        </div>
     </div>
 </div>
 
